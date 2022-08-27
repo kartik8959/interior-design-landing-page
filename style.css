@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo-txt{
+    color: black;
+}
+body{
+    background: rgb(50, 50, 101) url("./images/retro-living-room-interior-design.jpg") no-repeat fixed center;
+    background-size: 100%;
+    /* object-fit: cover; */
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.926);
+    padding: 4px;
+    align-items: center;
+    font-weight: bold;
+}
+.list{
+    display: flex;
+    list-style-type:none;
+    width: 400px;
+    justify-content: space-between;
+
+}
+hr.line{
+    width: 53%;
+    float:right ;
+   margin-right: 50px;
+   height: 2px;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    color: #fff;
+}
+.fa{
+    padding: 10px;
+   
+}
+
+.box-img{
+    display: inline-block;
+    border-radius: 25px;
+    padding: 10px;
+    width: 75px;
+}
+div.number{
+    margin-top: 10px
+}
+.logo-txt{
+    margin-top:55px;
+    font-size: 35px;
+    margin-left: 25px;
+}
+.body{
+    margin-top: 150px;
+}
+
+body{
+    position: relative;
+}
+.left-section h1{
+    color: #fff;
+    width: 40%;
+   padding: 20px;
+}
+
+
+.box{
+    position:absolute;
+    padding: 4px 10px;
+    background-color: rgba(128, 128, 128, 0.686);
+    margin: 5px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0,0.2);
+    color: #fff;
+   
+}
+
+.box-1{
+    top: 40%;
+    right: 10%;
+}
+
+.line {
+    height: 1px;
+    color: rgba(128, 128, 128, 0.686);
+    width: 5.5rem;
+    background-color: #fff;
+  }
+  .line-1{
+    position: absolute;
+    /* right: -77%; */
+    bottom: -43%;
+    left: 30%;
+    transform: rotate(90deg);
+  }
+
+.line-2{
+    position: absolute;
+    top: 53%;
+    right: -40%;
+}
+  .circle {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+  .circle-1{
+    position: absolute;
+    left: 47%;
+    bottom: -85%;
+  }
+
+  .circle-2{
+    position: absolute;
+    top: 48%;
+    right: -42%;
+}
+
+.box-2{
+    right: 36%;
+    bottom: -17%;
+}
+.box-description{
+    font-size: 12px;
+}
+.learn-more-btn{
+    margin: 25px;
+    padding: 10px;
+    border-radius: 20px;
+    border:none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+}
+
+@media screen and (max-width: 25em) {
+    html {
+      font-size: 35%;
+    }
+  }
